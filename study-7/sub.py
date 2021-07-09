@@ -14,17 +14,21 @@ def outer(*args) :
   
   locals = "나는야 로컬변수"
 
+  print("-" * 20)
+
   def inner(*args) :
     nonlocal locals
 
     print("inner 실행")
     print(locals)
     print("값은? : ", args)
-
+    print("-" * 20)
     return args
   
   return inner(*args)
 
 outer(Globals1, Globals2)
 
-print(add(Globals1, Globals2))
+a = add(Globals1, Globals2)
+
+print("값을 더해보면 ? : ", a)
