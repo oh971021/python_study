@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 class queue :
   def __init__(self) :
     self.data = []

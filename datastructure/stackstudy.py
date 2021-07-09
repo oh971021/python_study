@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 class stack :
     def __init__(self) :
         self.data = []

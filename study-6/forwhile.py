@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 # map 을 순환문을 돌리면 key 값만 가져온다.
 for i in {'a':1, 'b':2} :
   print(i, end=" ")
