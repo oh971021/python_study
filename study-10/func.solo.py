@@ -22,3 +22,13 @@ def outer(*args):
 
 # 함수호출 및 매개변수 전달
 outer("Hello", "Python")
+
+def function(value1, value2, *args, valueA=10, valueB=20):
+  print(value1, value2)
+  print(args)
+  print(valueA, valueB)
+
+function(1,2,3,4,5,6,7,8,9,10,valueA=11, valueB=22)
+# 예상 출력값 : 1, 2
+            #   (3, 4, 5, 6, 7, 8, 9, 10)
+            #   (10, 20)
