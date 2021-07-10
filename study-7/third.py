@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-
+# 숫자 맞추기 게임
 import random
 
 n = random.randint(1,50)
