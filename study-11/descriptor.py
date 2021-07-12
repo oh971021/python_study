@@ -1,3 +1,5 @@
+# -*- coding: utf8 -*-
+
 class Descriptor:
     def __init__(self, value):
         self.value = value
