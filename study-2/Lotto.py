@@ -1,23 +1,13 @@
 # -*- coding: utf8 -*-
 
-import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+import random as rd
 
-
-class MyApp(QWidget):
-
-    def __init__(self):
-        super().__init__()
-        self.initUI()
-
-    def initUI(self):
-        self.setWindowTitle('My First Application')
-        self.move(300, 300)
-        self.resize(400, 200)
-        self.show()
-
-
-if __name__ == '__main__':
-   app = QApplication(sys.argv)
-   ex = MyApp()
-   sys.exit(app.exec_())
+ran = rd.randint(0,50)
+if ran % 2 == 0 :
+    print("그냥 집에간다")
+else :
+    print("복권을 산다")
+    for i in range(0, 2):
+        LottoNumbers = rd.sample(range(1, 50),6)
+        i = LottoNumbers
+        print(i)
