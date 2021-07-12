@@ -13,3 +13,12 @@ class Descriptor:
     def __delete__(self, instance):
         print("delete")
         del self.value
+
+class A:
+    # instance
+    value1 = Descriptor(10)
+
+    # instance
+    value2 = Descriptor(10)
+
+a = (A)
