@@ -9,6 +9,10 @@
 
 - 여기서 scalar 는 일반적인 숫자형이다.
 
+- 배열은 for문을 작성하지 않고 데이터를 일괄 처리할 수 있다는 장점이 있다!
+  이를 백터화(vertorization)이라고 하는데,  
+  같은 크기의 배열 간 산술연산은 배열의 각 요소단위로(element by element) 적용된다.
+
 """""
 import numpy as np
 
