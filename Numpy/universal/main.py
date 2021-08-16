@@ -22,7 +22,12 @@ for i, v in np.__dict__.items() :
 print("\n")
 
 a = np.arange(5)
+b = a+a
 
 print("배열에서 사용하는 것을 보기위해 배열 생성 : ", a)
-print("a[1] + a[1] = ", op.add(1,1))
-print("a[i] + a[i] = ", op.add(a,a))
+
+# 그냥 + 해서 처리한 연산작업이 속도가 가장 빠르다.
+# 왜? 모듈을 불러와서 새로운 메소드를 사용하지않고, 빌트인 그대로 사용하는 것이기 때문이지 않을까?
+print("(그냥연산) a[1] + a[1] = ", b)
+print("(op방식) a[i] + a[i] = ", op.add(a,a))
+print("(np방식) a[i] + a[i] = ", np.add(a,a))
