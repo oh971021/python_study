@@ -1,5 +1,7 @@
 # python-study
 
+##### 사용툴 : Anaconda, VSCode, Python
+
 ### 1. <a herf="http://www.python.org/downloads">Python install</a>
 ![image](https://user-images.githubusercontent.com/84692769/138222453-f6632678-6d79-4b87-b6ba-7ff00d62600f.png)  ![image](https://user-images.githubusercontent.com/84692769/138222502-6663d7fa-0a7a-40de-95d2-b3b0414ce154.png)
 
